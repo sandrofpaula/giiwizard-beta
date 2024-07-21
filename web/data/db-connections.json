@@ -7,15 +7,7 @@
             "password": "",
             "charset": "utf8",
             "tablePrefix": "tb_"
-        },
-        "5": {
-            "name": "MySQL Local dblivrologia",
-            "dsn": "mysql:host=localhost;dbname=dblivrologia",
-            "username": "root",
-            "password": "",
-            "charset": "utf8",
-            "tablePrefix": "tb_"
         }
     },
-    "selected": "MySQL Local dblivrologia"
+    "selected": "MySQL Localhost yii2basic"
 }
