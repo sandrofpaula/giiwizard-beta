@@ -1,0 +1,52 @@
+<script>
+    var themes = [
+    'ace/theme/monokai',
+    'ace/theme/github',
+    'ace/theme/twilight',
+    'ace/theme/solarized_dark',
+    'ace/theme/solarized_light',
+    'ace/theme/dracula',
+    'ace/theme/cobalt'
+];
+</script>
+<?php
+
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-ambiance.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-chaos.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-chrome.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-clouds.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-clouds_midnight.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-cobalt.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-crimson_editor.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-dawn.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-dracula.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-dreamweaver.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-eclipse.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-github.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-gob.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-gruvbox.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-idle_fingers.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-iplastic.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-katzenmilch.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-kr_theme.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-kuroir.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-merbivore.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-merbivore_soft.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-monokai.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-mono_industrial.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-nord_dark.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-one_dark.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-pastel_on_dark.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-solarized_dark.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-solarized_light.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-sqlserver.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-terminal.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-textmate.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-tomorrow.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-tomorrow_night.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-tomorrow_night_blue.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-tomorrow_night_bright.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-tomorrow_night_eighties.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-twilight.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-vibrant_ink.js');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/ace-builds/src-min-noconflict/theme-xcode.js');

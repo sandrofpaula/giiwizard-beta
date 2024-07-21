@@ -1,0 +1,49 @@
+[33mcommit f35ce940e93f4615571ebe39825325aab4032183[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Reflog: HEAD@{0} (sandrofpaula <sandrofpaula@gmail.com>)
+Reflog message: commit: clipboard / CRUD v2
+Author: sandrofpaula <sandrofpaula@gmail.com>
+Date:   Thu Jul 4 23:26:27 2024 -0400
+
+    clipboard / CRUD v2
+    
+    implementação de clipboard e ajuste de CRUD v2
+
+[33mcommit 0ce8594ec9b46b00776e0fc1d56a794bd98c779a[m
+Reflog: HEAD@{1} (sandrofpaula <sandrofpaula@gmail.com>)
+Reflog message: commit: clipboard / CRUD
+Author: sandrofpaula <sandrofpaula@gmail.com>
+Date:   Thu Jul 4 22:41:14 2024 -0400
+
+    clipboard / CRUD
+    
+    implementação de clipboard e ajuste de CRUD
+
+[33mcommit f4d2c1ea7c2dcd4a2dbcaad16673e761ad48f895[m
+Reflog: HEAD@{2} (sandrofpaula <sandrofpaula@gmail.com>)
+Reflog message: commit: GitCommand v2
+Author: sandrofpaula <sandrofpaula@gmail.com>
+Date:   Thu Jul 4 22:27:28 2024 -0400
+
+    GitCommand v2
+    
+    Criação de uma lista de comandos git, com CRUD completo em JSON
+
+[33mcommit 1a7d2e32431bd9228949a2372ddda6ac110939bb[m
+Reflog: HEAD@{3} (sandrofpaula <sandrofpaula@gmail.com>)
+Reflog message: commit: GitCommand
+Author: sandrofpaula <sandrofpaula@gmail.com>
+Date:   Thu Jul 4 20:14:08 2024 -0400
+
+    GitCommand
+    
+    lista de comando git e com os comando favoritos em JSON
+
+[33mcommit d795357f59cbf5699baf7875da501a71ed591201[m
+Reflog: HEAD@{4} (sandrofpaula <sandrofpaula@gmail.com>)
+Reflog message: clone: from https://github.com/sandrofpaula/giiwizard.git
+Author: sandrofpaula <sandrofpaula@gmail.com>
+Date:   Thu Jul 4 15:50:54 2024 -0400
+
+    JsonForm
+    
+    implementacao do JsonForm

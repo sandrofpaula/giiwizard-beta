@@ -1,0 +1,9 @@
+{
+    "directories": [
+        {
+            "id": 1,
+            "name": "data",
+            "path": "@app/web/data/"
+        }
+    ]
+}

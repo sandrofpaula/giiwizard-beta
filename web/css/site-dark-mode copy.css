@@ -1,0 +1,99 @@
+/*************************dark-mode***********************/
+/* No arquivo web/css/site.css ou qualquer arquivo CSS incluído */
+.dark-mode {
+    background-color: #4f4b4b;
+    color: #ffffff;
+}
+
+/* Estilo para navbar em dark mode */
+.dark-mode .navbar {
+    background-color: #333333; /* Cor escura para a navbar */
+    border-bottom: 1px solid #444444; /* Borda inferior */
+}
+
+/* Estilo para inputs em dark mode */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background-color: #555555; /* Cor de fundo escura para inputs */
+    color: #ffffff; /* Cor do texto branco */
+    border: 1px solid #777777; /* Borda escura */
+}
+
+/* Estilo específico para inputs do tipo radio em dark mode */
+.dark-mode input[type="radio"] {
+    background-color: #555555; /* Cor de fundo */
+    border: 1px solid #777777; /* Borda */
+    appearance: none; /* Remove o estilo padrão */
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5rem 0 0;
+}
+
+.dark-mode input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Cor do indicador */
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+/* Estilo para botões em dark mode */
+.dark-mode .btn {
+    background-color: #666666; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: 1px solid #888888; /* Borda do botão */
+}
+
+/* Estilo para links em dark mode */
+.dark-mode a {
+    color: #a9a9a9; /* Cor dos links */
+}
+
+/* Estilo para cabeçalhos em dark mode */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #ffffff; /* Cor dos cabeçalhos */
+}
+
+/* Estilo para breadcrumbs em dark mode */
+.dark-mode .breadcrumb {
+    background-color: #4f4b4b; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo para footer em dark mode */
+.dark-mode .custom-footer {
+    background-color: #333333; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo para list group em dark mode */
+.dark-mode .list-group {
+    background-color: #4f4b4b; /* Cor de fundo */
+}
+
+.dark-mode .list-group-item {
+    background-color: #555555; /* Cor de fundo dos itens da lista */
+    color: #ffffff; /* Cor do texto dos itens da lista */
+    border: 1px solid #777777; /* Borda dos itens da lista */
+}
+
+/* Estilo para form-control em dark mode */
+.dark-mode .form-control {
+    background-color: #555555; /* Cor de fundo dos inputs do formulário */
+    color: #a77c7c; /* Cor do texto dos inputs do formulário */
+    border: 1px solid #777777; /* Borda dos inputs do formulário */
+}
+/****************fim*********dark-mode***********************/

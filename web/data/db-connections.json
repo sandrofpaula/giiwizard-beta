@@ -1,0 +1,21 @@
+{
+    "connections": {
+        "4": {
+            "name": "MySQL Localhost yii2basic",
+            "dsn": "mysql:host=localhost;dbname=yii2basic",
+            "username": "root",
+            "password": "",
+            "charset": "utf8",
+            "tablePrefix": "tb_"
+        },
+        "5": {
+            "name": "MySQL Local dblivrologia",
+            "dsn": "mysql:host=localhost;dbname=dblivrologia",
+            "username": "root",
+            "password": "",
+            "charset": "utf8",
+            "tablePrefix": "tb_"
+        }
+    },
+    "selected": "MySQL Local dblivrologia"
+}

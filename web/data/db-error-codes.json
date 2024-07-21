@@ -1,0 +1,65 @@
+{
+    "1045": {
+        "code": "1045",
+        "name": "Erro de Acesso ao bancoDeDados",
+        "message": "Acesso negado para o usuário especificado. Por favor, verifique o nome de usuário e a senha nas configurações do bancoDeDados.",
+        "categoria": "Autenticação",
+        "bancoDeDados": "MySQL"
+    },
+    "1049": {
+        "code": "1049",
+        "name": "Erro de bancoDeDados Desconhecido",
+        "message": "bancoDeDados desconhecido. Por favor, atualize o nome do bancoDeDados nas configurações.",
+        "categoria": "Configuração",
+        "bancoDeDados": "MySQL"
+    },
+    "1146": {
+        "code": "1146",
+        "name": "Erro de Tabela Desconhecida",
+        "message": "A tabela especificada não existe no bancoDeDados. Verifique o nome da tabela e tente novamente.",
+        "categoria": "Configuração",
+        "bancoDeDados": "MySQL"
+    },
+    "2002": {
+        "code": "2002",
+        "name": "Erro de Conexão com o Servidor",
+        "message": "Não foi possível conectar ao servidor do bancoDeDados. Por favor, verifique se o servidor está em execução e se o host está correto.",
+        "categoria": "Conexão",
+        "bancoDeDados": "MySQL"
+    },
+    "2003": {
+        "code": "2003",
+        "name": "Erro de Conexão",
+        "message": "Não foi possível conectar ao servidor MySQL. Verifique se o servidor está em execução e se o endereço do host está correto.",
+        "categoria": "Conexão",
+        "bancoDeDados": "MySQL"
+    },
+    "12514": {
+        "code": "12514",
+        "name": "Erro de Listener do Oracle",
+        "message": "O listener do Oracle não reconhece o serviço solicitado no descritor de conexão. Por favor, verifique se o serviço ou SID está correto e se o listener está configurado corretamente.",
+        "categoria": "Conexão",
+        "bancoDeDados": "Oracle"
+    },
+    "ORA-12514": {
+        "code": "ORA-12514",
+        "name": "Erro de Listener do Oracle ORA-12514",
+        "message": "O listener do Oracle não reconhece o serviço solicitado no descritor de conexão. Por favor, verifique se o serviço ou SID está correto e se o listener está configurado corretamente.",
+        "categoria": "Conexão",
+        "bancoDeDados": "Oracle"
+    },
+    "ORA-01017": {
+        "code": "ORA-01017",
+        "name": "Nome de usuário/senha inválido; login negado",
+        "message": "O nome de usuário ou a senha fornecidos durante o login são inválidos. Esse erro indica que a tentativa de login foi negada devido a credenciais incorretas.",
+        "categoria": "Erro de autenticação",
+        "bancoDeDados": "Oracle"
+    },
+    "01017": {
+        "code": "ORA-01017",
+        "name": "Nome de usuário/senha inválido; login negado",
+        "message": "O nome de usuário ou a senha fornecidos durante o login são inválidos. Esse erro indica que a tentativa de login foi negada devido a credenciais incorretas.",
+        "categoria": "Erro de autenticação",
+        "bancoDeDados": "Oracle"
+    }
+}
