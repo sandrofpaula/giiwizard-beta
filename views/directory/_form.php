@@ -16,9 +16,10 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id')->hiddenInput()->label(false) ?>
 
-    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'name')->textInput(['maxlength' => true, 'id' => 'directory-name']) ?>
 
-    <?= $form->field($model, 'path')->textInput(['maxlength' => true, 'value' => $isNewRecord ? '@app/web/data/' : $model->path]) ?>
+    <?= $form->field($model, 'path')->hiddenInput(['maxlength' => true, 'id' => 'directory-path', 'value' => $isNewRecord ? '@app/web/data/' : $model->path])->label(false) ?>
+
 
     <div class="form-group">
         <?= Html::submitButton($isNewRecord ? 'Criar' : 'Atualizar', ['class' => $isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
@@ -27,3 +28,10 @@ use yii\widgets\ActiveForm;
     <?php ActiveForm::end(); ?>
 
 </div>
+<script>
+document.getElementById('directory-name').addEventListener('input', function() {
+    var basePath = '@app/web/data/';
+    var name = this.value;
+    document.getElementById('directory-path').value = basePath + name;
+});
+</script>

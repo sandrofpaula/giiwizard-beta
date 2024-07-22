@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 $directory=$_GET["directory"] ;
-$this->title = 'Gerenciar diretórios de arquivos JSON';
+$this->title = 'Gerenciar diretórios de arquivos JSON @app/web/data/';
 ?>
 <div class="directory-index">
     <h1><?= Html::encode($this->title) ?></h1>
