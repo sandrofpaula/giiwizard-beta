@@ -8,7 +8,7 @@
 
 **GIIWIZARD - beta** 
 
-| **Português** | **English** |
+| **Português - PT-BR** | **English** |
 | -------------- | ------------ |
 | **SISTEMA GIIWIZARD - beta** | **GIIWIZARD SYSTEM - beta** |
 | O Gii do Yii2 é uma poderosa extensão que simplifica a geração automática de código para aplicações web desenvolvidas com o framework Yii. Com uma interface web intuitiva, o Gii permite criar rapidamente classes de modelo Active Record, controladores, visões e outras estruturas comuns em aplicações MVC. | Yii2's Gii is a powerful extension that simplifies automatic code generation for web applications developed with the Yii framework. With an intuitive web interface, Gii allows you to quickly create Active Record model classes, controllers, views, and other common structures in MVC applications. |
