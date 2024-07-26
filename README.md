@@ -6,33 +6,25 @@
     <br>
 </p>
 
-SISTEMA GIIWIZARD - beta
--------------------
-### Giiwizard
+**GIIWIZARD - beta** 
 
-O Gii do Yii2 é uma poderosa extensão que simplifica a geração automática de código para aplicações web desenvolvidas com o framework Yii. Com uma interface web intuitiva, o Gii permite criar rapidamente classes de modelo Active Record, controladores, visões e outras estruturas comuns em aplicações MVC.
-
-#### Gerando Código com o Gii
-
-**Gerar uma Classe Active Record:**
-
-1. Acesse o Gii e selecione "Model Generator".
-2. Preencha o nome da tabela e o nome da classe do modelo.
-3. Clique em "Preview" e, se estiver satisfeito com o resultado, clique em "Generate".
-
-**Gerar CRUD:**
-
-1. Acesse o Gii e selecione "CRUD Generator".
-2. Preencha os campos necessários, como o nome da classe do modelo, classe de busca e controlador.
-3. Clique em "Preview" e, se estiver satisfeito com o resultado, clique em "Generate".
-
-### Facilidades com o app Giiwizard
-
-O app Giiwizard oferece uma integração perfeita ao se conectar a um banco de dados, gerando automaticamente as URLs que o Gii do Yii2 utiliza para criar as estruturas MVC e CRUD com base no banco de dados conectado. Isso elimina erros de digitação e preenchimentos incorretos.
-
-Se preferir não conectar a um banco de dados, você pode usar um arquivo JSON com uma estrutura predefinida de `database` e `tables` para criar as URLs, tanto com módulo quanto sem módulo.
-
-Essas funcionalidades tornam o desenvolvimento de aplicações web com Yii2 mais eficiente e menos suscetível a erros, proporcionando uma experiência de desenvolvimento mais fluida e confiável.
+| **Português** | **English** |
+| -------------- | ------------ |
+| **SISTEMA GIIWIZARD - beta** | **GIIWIZARD SYSTEM - beta** |
+| O Gii do Yii2 é uma poderosa extensão que simplifica a geração automática de código para aplicações web desenvolvidas com o framework Yii. Com uma interface web intuitiva, o Gii permite criar rapidamente classes de modelo Active Record, controladores, visões e outras estruturas comuns em aplicações MVC. | Yii2's Gii is a powerful extension that simplifies automatic code generation for web applications developed with the Yii framework. With an intuitive web interface, Gii allows you to quickly create Active Record model classes, controllers, views, and other common structures in MVC applications. |
+| Gerando Código com o Gii | Generating Code with Gii |
+| **Gerar uma Classe Active Record:** | **Generate an Active Record Class:** |
+| 1. Acesse o Gii e selecione "Model Generator". | 1. Access Gii and select "Model Generator". |
+| 2. Preencha o nome da tabela e o nome da classe do modelo. | 2. Fill in the table name and the model class name. |
+| 3. Clique em "Preview" e, se estiver satisfeito com o resultado, clique em "Generate". | 3. Click on "Preview" and if you are satisfied with the result, click on "Generate". |
+| **Gerar CRUD:** | **Generate CRUD:** |
+| 1. Acesse o Gii e selecione "CRUD Generator". | 1. Access Gii and select "CRUD Generator". |
+| 2. Preencha os campos necessários, como o nome da classe do modelo, classe de busca e controlador. | 2. Fill in the necessary fields, such as the model class name, search class, and controller. |
+| 3. Clique em "Preview" e, se estiver satisfeito com o resultado, clique em "Generate". | 3. Click on "Preview" and if you are satisfied with the result, click on "Generate". |
+| Facilidades com o app Giiwizard | Conveniences with the Giiwizard app |
+| O app Giiwizard oferece uma integração perfeita ao se conectar a um banco de dados, gerando automaticamente as URLs que o Gii do Yii2 utiliza para criar as estruturas MVC e CRUD com base no banco de dados conectado. Isso elimina erros de digitação e preenchimentos incorretos. | The Giiwizard app offers seamless integration when connecting to a database, automatically generating the URLs that Yii2's Gii uses to create MVC and CRUD structures based on the connected database. This eliminates typing errors and incorrect entries. |
+| Se preferir não conectar a um banco de dados, você pode usar um arquivo JSON com uma estrutura predefinida de `database` e `tables` para criar as URLs, tanto com módulo quanto sem módulo. | If you prefer not to connect to a database, you can use a JSON file with a predefined `database` and `tables` structure to create the URLs, both with and without a module. |
+| Essas funcionalidades tornam o desenvolvimento de aplicações web com Yii2 mais eficiente e menos suscetível a erros, proporcionando uma experiência de desenvolvimento mais fluida e confiável. | These features make web application development with Yii2 more efficient and less prone to errors, providing a smoother and more reliable development experience. |
 
 -------------------
 Yii 2 Basic Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
